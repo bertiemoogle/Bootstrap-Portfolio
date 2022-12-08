@@ -1,0 +1,33 @@
+/* BODY STYLING */
+
+body {
+    font-family: 'Raleway';
+    background-color: #FFF8BC;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    background-color: #434242 !important;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(244, 157, 26) !important;
+}
+
+.navbar-nav {
+    font-size: 1rem;
+    padding-top: 30px;
+    color: rgb(244, 157, 26);
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    text-decoration: underline;
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: rgb(244, 157, 26);
+}
