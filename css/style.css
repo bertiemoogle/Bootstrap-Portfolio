@@ -41,10 +41,9 @@ body {
 
 .banner {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: rgba(244, 157, 26, .6);
     text-align: end;
-    padding-top: 50px;
     font-size: 2rem;
     font-weight: 600;
     padding-right: 100px;
@@ -55,16 +54,19 @@ body {
     padding: 0;
 }
 
-/* WORK SECTION */
-
-.work {
-    text-align: center;
-}
-
 /* MEDIA QUERIES */
 
   @media screen and (max-width: 1000px) {
     .banner {
-        text-align: center;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 1.5rem;
+        height: 75px
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
     }
   }
+
+ 
