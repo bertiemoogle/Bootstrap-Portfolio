@@ -54,18 +54,24 @@ body {
     padding: 0;
 }
 
+/* JUMBOTRON */
+
+.jumbotron {
+    
+}
+
 /* MEDIA QUERIES */
 
   @media screen and (max-width: 1000px) {
     .banner {
         text-align: left;
         padding-left: 20px;
-        font-size: 1.5rem;
-        height: 75px
+        font-size: .75rem;
+        height: 1.25rem;
     }
 
     .navbar-brand {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
   }
 
