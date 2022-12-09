@@ -11,7 +11,7 @@ p {
 
 * {
     box-sizing: border-box;
-  }
+}
 
 /* NAVIGATION */
 
@@ -51,15 +51,15 @@ p {
 
 /* BANNER */
 
-.span-2 {
+.span-1 .span-3 {
     font-size: 2rem;
     color: #434242;
-  }
-  
-  .span-1 {
+}
+
+.span-2 {
     font-size: 2rem;
     color: #820000;
-  }
+}
 
 .banner {
     width: 100%;
@@ -90,6 +90,58 @@ p {
 .jumbotron .about {
     text-align: center;
     margin-bottom: 20px;
+    border-right: 3px solid #434242;
+}
+
+.col2 {
+    padding: 50px;
+}
+
+/* CARDS */
+
+.card {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #FFF8BC;
+    border: 0;
+}
+
+.top-img {
+    width: 100%;
+}
+
+.sm-img {
+    padding: 60px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #434242;
+}
+
+.card-title:hover {
+    color: crimson;
+}
+
+.card-text {
+    color: #434242;
+}
+
+/* CONTACT */
+
+footer {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.icon-item {
+    font-size: 24px;
+    color: #434242;
+    margin: 25px 30px;
+}
+
+.icon-item:hover {
+    color: crimson;
 }
 
 /* MEDIA QUERIES */
@@ -106,15 +158,25 @@ p {
         font-size: 2rem;
     }
 
-    .span-2 {
-        padding-top: 20px;;
+    .banner .span-1 {
         font-size: 1rem;
-      }
-      
-      .span-1 {
-        padding-top: 20px;
-        font-size: 1rem;
-      }
-  }
+        padding-left: 20px;
+    }
 
- 
+    .banner {
+        padding: 0;
+    }
+
+    .banner .span-2 {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .sm-img {
+        padding: 0;
+        width: 100%;
+    }
+}
