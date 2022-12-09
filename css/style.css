@@ -104,13 +104,14 @@ p {
 /* CARDS */
 
 .cardContainer {
-    border: 0;
+    margin: 15px 0 15px 0;
 }
 
 .card {
     width: 50%;
     margin: 0 auto;
-    background-color: #FFF8BC;;
+    background-color: #FFF8BC;
+    border: 0;
 }
 
 .top-img {
