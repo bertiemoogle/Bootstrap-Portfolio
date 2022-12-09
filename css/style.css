@@ -5,6 +5,10 @@ body {
     background-color: #FFF8BC;
 }
 
+p {
+    color: #434242;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -34,7 +38,7 @@ body {
 
 .navbar .navbar-nav .nav-item a:hover {
     text-decoration: underline;
-    color: white !important;
+    color: #FFE15D !important;
 }
 
 .navbar .navbar-nav .nav-item a:visited {
@@ -75,7 +79,17 @@ body {
 /* JUMBOTRON */
 
 .jumbotron {
-    
+    background-color: #FFF8BC;
+}
+
+.jumbotron .moogle {
+    max-width: 150px;
+    margin: 10px;
+}
+
+.jumbotron .about {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* MEDIA QUERIES */
@@ -93,10 +107,12 @@ body {
     }
 
     .span-2 {
+        padding-top: 20px;;
         font-size: 1rem;
       }
       
       .span-1 {
+        padding-top: 20px;
         font-size: 1rem;
       }
   }
