@@ -151,6 +151,7 @@ footer {
 
 .icon-item:hover {
     color: crimson;
+    box-shadow: 3px 5px 5px #434242;
 }
 
 /* SKILLS */
