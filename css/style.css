@@ -121,7 +121,7 @@ p {
 }
 
 .sm-img {
-    margin-left: 100px;
+    width: 100%;
 } 
 
 .card-title {
@@ -213,5 +213,9 @@ footer {
     .sm-img {
         margin: 0;
         width: 100%;
+    }
+
+    .icon-item {
+        margin: 15px 20px;
     }
 }
