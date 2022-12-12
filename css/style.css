@@ -110,24 +110,16 @@ p {
 }
 
 .card {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     background-color: #FFF8BC;
     border: 0;
 }
 
-.top-img {
-    width: 100%;
-}
-
-.sm-img {
-    padding: 10%;
-} 
-
 .card-title {
     font-weight: 600;
     color: #434242;
-    text-align: left;
+    text-align: center;
 }
 
 .card-title:hover {
@@ -136,7 +128,7 @@ p {
 }
 
 .card-text {
-    text-align: left;
+    text-align: center;
     color: #434242;
 }
 
