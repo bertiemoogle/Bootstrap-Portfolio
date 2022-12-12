@@ -85,8 +85,6 @@ p {
 .jumbotron {
     background-color: #FFF8BC;
     margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 50px;
 }
 
 .jumbotron .moogle {
@@ -96,7 +94,7 @@ p {
 
 .jumbotron .about {
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .jumbotron .col1 .col2 .col3{
