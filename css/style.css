@@ -85,13 +85,13 @@ p {
 .jumbotron {
     background-color: #FFF8BC;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
 
 .jumbotron .moogle {
     width: 150px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .jumbotron .about {
@@ -104,7 +104,7 @@ p {
 }
 
 .top-text {
-    padding: 20px;
+    padding: 50px;
 }
 
 /* CARDS */
@@ -179,9 +179,9 @@ footer {
         height: 1.75rem;
     }
 
-.jumbotron .moogle {
-    padding-bottom: 30px;
-}
+    .jumbotron .moogle {
+        padding-bottom: 30px;
+    }
 
     .jumbotron .about {
         border: 0;
