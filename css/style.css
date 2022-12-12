@@ -121,12 +121,13 @@ p {
 }
 
 .sm-img {
-    width: 100%;
+    padding: 10%;
 } 
 
 .card-title {
     font-weight: 600;
     color: #434242;
+    text-align: left;
 }
 
 .card-title:hover {
@@ -135,6 +136,7 @@ p {
 }
 
 .card-text {
+    text-align: left;
     color: #434242;
 }
 
