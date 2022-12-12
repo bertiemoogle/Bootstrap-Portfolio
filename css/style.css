@@ -134,6 +134,14 @@ p {
     color: #434242;
 }
 
+img {
+    transition: all 0.5s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
 /* CONTACT */
 
 footer {
