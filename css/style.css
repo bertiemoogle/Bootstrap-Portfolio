@@ -91,7 +91,7 @@ p {
 
 .jumbotron .moogle {
     width: 150px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .jumbotron .about {
@@ -101,6 +101,10 @@ p {
 
 .jumbotron .col1 .col2 .col3{
     margin: 20px;
+}
+
+.top-text {
+    padding: 20px;
 }
 
 /* CARDS */
